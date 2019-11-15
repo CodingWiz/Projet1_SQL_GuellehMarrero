@@ -66,6 +66,12 @@
     <Compile Include="frmAjouterUtilisateur.Designer.cs">
       <DependentUpon>frmAjouterUtilisateur.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAjoutModificationTypesChambres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAjoutModificationTypesChambres.Designer.cs">
+      <DependentUpon>frmAjoutModificationTypesChambres.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmAjoutPlanifSoin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,12 @@
     </Compile>
     <Compile Include="frmGestionAjoutModificationSoinsSeul.designer.cs">
       <DependentUpon>frmGestionAjoutModificationSoinsSeul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGestionChambresTypesChambre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionChambresTypesChambre.Designer.cs">
+      <DependentUpon>frmGestionChambresTypesChambre.cs</DependentUpon>
     </Compile>
     <Compile Include="frmGestionDesAssistantEtSoins.cs">
       <SubType>Form</SubType>
@@ -168,6 +180,12 @@
     <Compile Include="frmGestionRapports.Designer.cs">
       <DependentUpon>frmGestionRapports.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmGestionTypeChambre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGestionTypeChambre.Designer.cs">
+      <DependentUpon>frmGestionTypeChambre.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmGestionUtilisateurs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -215,6 +233,9 @@
     <EmbeddedResource Include="frmAjoutModificationClient.resx">
       <DependentUpon>frmAjoutModificationClient.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmAjoutModificationTypesChambres.resx">
+      <DependentUpon>frmAjoutModificationTypesChambres.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmAjoutPlanifSoin.resx">
       <DependentUpon>frmAjoutPlanifSoin.cs</DependentUpon>
     </EmbeddedResource>
@@ -229,6 +250,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmGestionAjoutModificationSoinsSeul.resx">
       <DependentUpon>frmGestionAjoutModificationSoinsSeul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionChambresTypesChambre.resx">
+      <DependentUpon>frmGestionChambresTypesChambre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmGestionDesAssistantEtSoins.resx">
       <DependentUpon>frmGestionDesAssistantEtSoins.cs</DependentUpon>
@@ -259,6 +283,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmGestionRapports.resx">
       <DependentUpon>frmGestionRapports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGestionTypeChambre.resx">
+      <DependentUpon>frmGestionTypeChambre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmGestionUtilisateurs.resx">
       <DependentUpon>frmGestionUtilisateurs.cs</DependentUpon>

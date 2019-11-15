@@ -130,7 +130,7 @@
             // 
             this.gérerLesChambresToolStripMenuItem.Name = "gérerLesChambresToolStripMenuItem";
             this.gérerLesChambresToolStripMenuItem.Size = new System.Drawing.Size(328, 22);
-            this.gérerLesChambresToolStripMenuItem.Text = "Gérer les chambres ";
+            this.gérerLesChambresToolStripMenuItem.Text = "Gérer les chambres et leurs types";
             this.gérerLesChambresToolStripMenuItem.Click += new System.EventHandler(this.gérerLesChambresToolStripMenuItem_Click);
             // 
             // réserverDesChambrespourLesClientsToolStripMenuItem

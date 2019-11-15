@@ -17,7 +17,7 @@ namespace Projet1BaseDeDonnee3
         frmGestionUtilisateurs frmGestionUtil = new frmGestionUtilisateurs();
         frmGestionDesAssistantEtSoins frmGererAsstantEtSoins = new frmGestionDesAssistantEtSoins();
         frmGestionDesSoinsSeul frmGestionSoinsSeul = new frmGestionDesSoinsSeul();
-        frmGestionDesChambres frmGestionChambres = new frmGestionDesChambres();
+        //frmGestionDesChambres frmGestionChambres = new frmGestionDesChambres();
 
         
         public MenuAdmin()
@@ -72,7 +72,10 @@ namespace Projet1BaseDeDonnee3
         private void gérerLesChambresToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            frmGestionChambres.ShowDialog();
+            //frmGestionChambres.ShowDialog();
+
+            frmGestionChambresTypesChambre gestionChambresTypesChambre = new frmGestionChambresTypesChambre();
+            gestionChambresTypesChambre.ShowDialog();
             this.Show();
         }
 
